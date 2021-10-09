@@ -9,7 +9,11 @@ body{
     color:white;
     font-size:1.2rem;
     font-family: "poppins",sans-serif;
-    
+}
+@media(max-width:600px){
+    body{
+        font-size: .7rem;
+    }
 }
 .container{
     max-width:1000px;
@@ -46,6 +50,11 @@ body{
 .main-header{
     line-height:140px;
 }
+@media(max-width:600px){
+    .main-header{
+        line-height: 50px;
+    }
+}
 
 .main-nav ul,
 .main-footer nav ul{
@@ -71,8 +80,16 @@ body{
     align-items: center;
     cursor:pointer;
 }
-.brand-logo-img{
-    display: none;
+@media(max-width: 600px){
+    .main-brand-logo{
+       font-size: .6em;
+    }
+}
+
+@media(max-width: 600px){
+    img.brand-log{
+      height:2em;
+    }
 }
 .brand-logo-name{
     font-weight: 500;
