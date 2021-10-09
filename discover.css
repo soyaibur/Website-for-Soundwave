@@ -4,3 +4,26 @@
 .main-header{
     display:flex;
 }
+.main-footer{
+    background-color: blue;
+    line-height: 70px;
+    font-weight:bold;
+    font-size: .9em;
+}
+.nav-right a{
+    display:flex;
+    align-items: center;
+}
+.main-footer img {
+    font-size: 1em;
+    margin-right: .5em;
+}
+@media(max-width:600px){
+    .main-footer{
+        flex-direction: column;
+        line-height: normal;
+    }
+    .main-footer img {
+        font-size: .5em;
+    }
+}

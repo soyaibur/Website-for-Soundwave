@@ -15,6 +15,8 @@ body{
     max-width:1000px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color:blue;
+
 }
 .full-height-container{
     display:flex;
@@ -35,26 +37,32 @@ body{
 
 
 
-.main-header{
+.main-header,
+.main-footer{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+.main-header{
     line-height:140px;
 }
 
-.main-nav ul{
+.main-nav ul,
+.main-footer nav ul{
     display:flex;
     list-style: none;
     margin:0;
     padding:0;
 }
-.main-nav a{
+.main-nav a,
+.main-footer a{
     text-decoration: none;
     color:inherit;
     margin-left:20px;
 }
 
-.main-nav a:hover{
+.main-nav a:hover,
+.main-footer a:hover{
     color:#adadad;
 }
 
